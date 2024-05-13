@@ -7,6 +7,11 @@
   pointer-events: none;
 }
 
+.resume-single-list:hover .hoverNewClass {
+  color: #ff014f;
+  transition: 0.5s;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -158,7 +163,7 @@
   bottom: 100%;
   left: 7%;
   border: solid transparent;
-  content: ' ';
+  content: " ";
   height: 0;
   width: 0;
   position: absolute;
@@ -179,7 +184,7 @@
   bottom: 100%;
   left: 20px;
   border: solid transparent;
-  content: ' ';
+  content: " ";
   height: 0;
   width: 0;
   position: absolute;
