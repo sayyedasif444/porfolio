@@ -10,6 +10,7 @@
     "antd": "^5.5.1",
     "axios": "^1.4.0",
     "bootstrap": "^5.0.2",
+    "dotenv": "^16.4.5",
     "moment": "^2.29.4",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",

@@ -20,10 +20,10 @@ const Index = () => {
       setloader(true);
       emailjs
         .sendForm(
-          "service_kt27rcj",
-          "template_sb5emjp",
+          process.env.REACT_APP_SERVICE_MAIL,
+          process.env.REACT_APP_TEMPLATE_MAIL,
           form.current,
-          "L6k11H6Mgq3s-zb0H"
+          process.env.REACT_APP_SERVICE_PUBLIC_KEY
         )
         .then(
           (result) => {
